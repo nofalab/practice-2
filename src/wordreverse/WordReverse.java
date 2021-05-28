@@ -17,9 +17,9 @@ public class WordReverse {
    
     public static void main(String[] args) {
         String name;
-        Scanner input=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.println("enter a string: ");
-        name=input.nextLine();
+        name=sc.nextLine();
         
         char[] revName=name.toCharArray();
         
